@@ -1,0 +1,31 @@
+.list__container {
+    display: flex;
+    gap: 24px;
+    color: white;
+}
+
+.list__container h3 {
+    cursor: pointer;
+    font-size: 1.5rem;
+}
+
+.main__container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 40px;
+}
+
+.button__container {
+    padding: 10px 40px;
+    color: white;
+    background-color: transparent;
+    border: 1px solid white;
+    font-weight: bold;
+    cursor: pointer;
+    font-family: var(--poppins);
+}
+
+.main__logo {
+    cursor: pointer;
+}

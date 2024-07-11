@@ -1,0 +1,49 @@
+.main__container {
+    display: flex;
+    padding: 0px 140px;
+    gap: 20px;
+}
+
+.info__container {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    box-sizing: border-box;
+}
+
+.can__container img {
+    height: 590px;
+    width: 590px;
+}
+
+.heading__container h1{
+    color: #FFF;
+    font-size: 100px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
+.para__container {
+    color: #FFF;
+    text-align: justify;
+    font-family: var(--poppins);
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 300;
+}
+
+.para__container p {
+    font-family: var(--poppins);
+}
+
+.fruitImg__container {
+    display: flex;
+    gap: 24px;
+    margin-top: 24px;
+}
+
+.fruitImg__container img {
+    cursor: pointer;
+}
