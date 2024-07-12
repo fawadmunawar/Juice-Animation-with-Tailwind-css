@@ -56,7 +56,7 @@ const Main = () => {
 
     return (
         <div className='flex flex-wrap lg:flex-row py-8 px-6 sm:px-20 text-center justify-center items-center lg:gap-10'>
-            <div className='flex flex-col gap-6 box-border max-w-xl lg:justify-start lg:gap-8'>
+            <div className='flex flex-col gap-6 box-border max-w-xl lg:justify-start lg:gap-14'>
                 <div>
                     <motion.h1 className='text-white text-4xl sm:text-[50px] lg:text-[100px]'
                         key={isAnimating}
