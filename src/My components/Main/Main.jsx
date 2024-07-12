@@ -84,12 +84,12 @@ const Main = () => {
                     <p className='font-sans'>{fruits[changeFruit].desc}</p>
                 </div>
                 <div className='flex gap-6 justify-center'>
-                    <img className='cursor-pointer h-16 w-16 sm:h-20 sm:w-20 lg:h-32 lg:w-32' src={mango} alt="mango picture" onClick={changeImage1} />
-                    <img className='cursor-pointer h-16 w-16 sm:h-20 sm:w-20 lg:h-32 lg:w-32' src={lychee} alt="lychee picture" onClick={changeImage2} />
-                    <img className='cursor-pointer h-16 w-16 sm:h-20 sm:w-20 lg:h-32 lg:w-32' src={orange} alt="orange picture" onClick={changeImage3} />
+                    <img className='cursor-pointer h-16 w-16 sm:h-28 sm:w-28 lg:h-40 lg:w-40' src={mango} alt="mango picture" onClick={changeImage1} />
+                    <img className='cursor-pointer h-16 w-16 sm:h-28 sm:w-28 lg:h-40 lg:w-40' src={lychee} alt="lychee picture" onClick={changeImage2} />
+                    <img className='cursor-pointer h-16 w-16 sm:h-28 sm:w-28 lg:h-40 lg:w-40' src={orange} alt="orange picture" onClick={changeImage3} />
                 </div>
             </div>
-            <div className='h-64 w-64 sm:h-[300px] sm:w-[300px] m:h-[350px] m:w-[350px] mt-6 lg:h-[450px] lg:w-[450px]'>
+            <div className='h-64 w-64 sm:h-[300px] sm:w-[300px] m:h-[350px] m:w-[350px] mt-6 lg:h-[450px] lg:w-[450px] overflow-hidden'>
                 <motion.img src={image} alt="fruit can" className='h-full w-full'
                     key={isAnimating}
                     initial={{
