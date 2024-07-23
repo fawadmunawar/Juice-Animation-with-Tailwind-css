@@ -93,7 +93,7 @@ const Main = () => {
                 <motion.img src={image} alt="fruit can" className='h-full w-full'
                     key={isAnimating}
                     initial={{
-                        x: 40
+                        x: 40 
                     }}
                     animate={{
                         x: 0
